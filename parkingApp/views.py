@@ -187,6 +187,8 @@ def calculate_time_diff(start_datetime,end_datetie,rate_of_vicle):
 
 
 
+def fun():
+    return  "hellow  "
 
 class reservation_close(APIView):
     def patch(self,request,reserve_id):
@@ -228,3 +230,6 @@ class reservation_close(APIView):
                     return Response(update_transaction_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
             else:
                 return Response(update_reserve_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+"These release notes describe issues specific to the Git for Windows release. The release notes covering the history of the core git commands can be found"
