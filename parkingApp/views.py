@@ -228,3 +228,6 @@ class reservation_close(APIView):
                     return Response(update_transaction_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
             else:
                 return Response(update_reserve_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+"These release notes describe issues specific to the Git for Windows release. The release notes covering the history of the core git commands can be found"
