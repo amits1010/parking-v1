@@ -187,6 +187,8 @@ def calculate_time_diff(start_datetime,end_datetie,rate_of_vicle):
 
 
 
+def fun():
+    return  "hellow"
 
 class reservation_close(APIView):
     def patch(self,request,reserve_id):
