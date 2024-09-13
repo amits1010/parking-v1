@@ -87,3 +87,12 @@ class transactions(models.Model):
 
     def __str__(self) -> str:
         return str(self.id)
+
+
+class TicketNo(models.Model):
+    id = models.ForeignKey(Reservations,on_delete=models.CASCADE)
+    total_time = models.CharField(max_length=200)
+    ticket_amount = models.DecimalField(max_digits=10,decimal_places=2)
+
+    def __str__(self) -> str:
+        return str(self.id)

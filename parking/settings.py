@@ -89,7 +89,7 @@ DATABASES = {
 		'NAME': 'parking_database',
 		'USER': 'root',
 		'PASSWORD': '12345',
-		'HOST':'localhost',
+		'HOST':'localhost',#192.14.192.00
 		'PORT':'3306',
 	}
 }
